@@ -90,9 +90,6 @@ sup {
 figure {
   margin: 1em 40px;
 }
-img {
-  border-style: none;
-}
 code,
 kbd,
 pre,
@@ -204,9 +201,6 @@ hr {
 .w3-image {
   max-width: 100%;
   height: auto;
-}
-img {
-  vertical-align: middle;
 }
 a {
   color: inherit;
@@ -433,6 +427,7 @@ a {
   padding: 0;
   outline: 0;
   width: 600px;
+  align-items: center;
 }
 .w3-bar {
   width: 100%;
@@ -1022,7 +1017,7 @@ a {
 .w3-grayscale-max,
 .w3-hover-greyscale:hover,
 .w3-hover-grayscale:hover {
-  filter: grayscale(100%);
+  filter: grayscale(0%);
 }
 .w3-greyscale,
 .w3-grayscale {
@@ -1030,7 +1025,7 @@ a {
 }
 .w3-greyscale-min,
 .w3-grayscale-min {
-  filter: grayscale(50%);
+  filter: grayscale(100%);
 }
 .w3-sepia {
   filter: sepia(75%);

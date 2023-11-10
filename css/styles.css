@@ -18,7 +18,7 @@ body {
   z-index: 1;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -35%);
+  transform: translate(-50%, -50%);
 }
 
 .banner h1 {
@@ -73,9 +73,11 @@ body {
   margin: auto;
   color: rgb(18, 64, 114);
   margin: auto;
-  line-height: 20px;
+  line-height: 21px;
   font-family: "Univia Pro", sans-serif;
   font-size: 14px;
+  background-color: rgb(168, 201, 216);
+  border-radius: 5px;
 }
 
 .columns h2 {
